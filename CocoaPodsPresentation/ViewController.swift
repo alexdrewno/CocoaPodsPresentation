@@ -57,6 +57,19 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         }
     }
     
+    @IBAction func triangleButton(_ sender: Any) {
+        confettiView.type = .Triangle
+    }
+    
+    @IBAction func illuminatiButtons(_ sender: Any) {
+        confettiView.type = .Image((UIImage(named: "Illuminati.png"))!)
+    }
+    
+    @IBAction func regularButton(_ sender: Any) {
+        confettiView.type = .Confetti
+    }
+    
+    
     // Sound setup
     func setupAudioPlayerWithFile(_ file:NSString, type:NSString) -> AVAudioPlayer  {
         //1

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		10ADD3741E292F20005FFF31 /* KidsCheering.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 10ADD3731E292F20005FFF31 /* KidsCheering.mp3 */; };
+		10ADD3B31E2E749F005FFF31 /* Illuminati.png in Resources */ = {isa = PBXBuildFile; fileRef = 10ADD3B21E2E749F005FFF31 /* Illuminati.png */; };
 		36CFA13BDD916965E849B2D6 /* Pods_CocoaPodsPresentationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9388F5553E403E2A90D3A9F4 /* Pods_CocoaPodsPresentationTests.framework */; };
 		3F9FE0CF1E27D57200D0ECB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FE0CE1E27D57200D0ECB3 /* AppDelegate.swift */; };
 		3F9FE0D11E27D57200D0ECB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9FE0D01E27D57200D0ECB3 /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		10ADD3731E292F20005FFF31 /* KidsCheering.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = KidsCheering.mp3; sourceTree = "<group>"; };
+		10ADD3B21E2E749F005FFF31 /* Illuminati.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Illuminati.png; sourceTree = "<group>"; };
 		33B5BEF3F7D4A771B3D30C2A /* Pods-CocoaPodsPresentation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoaPodsPresentation.release.xcconfig"; path = "Pods/Target Support Files/Pods-CocoaPodsPresentation/Pods-CocoaPodsPresentation.release.xcconfig"; sourceTree = "<group>"; };
 		3F9FE0CB1E27D57200D0ECB3 /* CocoaPodsPresentation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoaPodsPresentation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F9FE0CE1E27D57200D0ECB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				10ADD3731E292F20005FFF31 /* KidsCheering.mp3 */,
+				10ADD3B21E2E749F005FFF31 /* Illuminati.png */,
 				3F9FE0CD1E27D57200D0ECB3 /* CocoaPodsPresentation */,
 				3F9FE0E21E27D57200D0ECB3 /* CocoaPodsPresentationTests */,
 				3F9FE0ED1E27D57200D0ECB3 /* CocoaPodsPresentationUITests */,
@@ -245,6 +248,7 @@
 				TargetAttributes = {
 					3F9FE0CA1E27D57200D0ECB3 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = SS74D43GDA;
 						ProvisioningStyle = Automatic;
 					};
 					3F9FE0DE1E27D57200D0ECB3 = {
@@ -287,6 +291,7 @@
 				3F9FE0D91E27D57200D0ECB3 /* LaunchScreen.storyboard in Resources */,
 				3F9FE0D61E27D57200D0ECB3 /* Assets.xcassets in Resources */,
 				10ADD3741E292F20005FFF31 /* KidsCheering.mp3 in Resources */,
+				10ADD3B31E2E749F005FFF31 /* Illuminati.png in Resources */,
 				3F9FE0D41E27D57200D0ECB3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -604,6 +609,7 @@
 			baseConfigurationReference = EA5E3E4D8BF8EEDFB13E068A /* Pods-CocoaPodsPresentation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SS74D43GDA;
 				INFOPLIST_FILE = CocoaPodsPresentation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adrewno1.CocoaPodsPresentation;
@@ -617,6 +623,7 @@
 			baseConfigurationReference = 33B5BEF3F7D4A771B3D30C2A /* Pods-CocoaPodsPresentation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SS74D43GDA;
 				INFOPLIST_FILE = CocoaPodsPresentation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = adrewno1.CocoaPodsPresentation;

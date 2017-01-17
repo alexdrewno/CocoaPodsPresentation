@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -35,11 +36,38 @@
                                     <action selector="confettiButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SRU-G9-dKJ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aux-2I-il8">
+                                <rect key="frame" x="16" y="629" width="62" height="30"/>
+                                <state key="normal" title="triangle"/>
+                                <connections>
+                                    <action selector="triangleButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j8E-TZ-msO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Obe-G9-ab6">
+                                <rect key="frame" x="303" y="629" width="56" height="30"/>
+                                <state key="normal" title="regular"/>
+                                <connections>
+                                    <action selector="regularButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wep-Ew-s3F"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wxg-iM-61N">
+                                <rect key="frame" x="147" y="629" width="81" height="30"/>
+                                <state key="normal" title="illuminati"/>
+                                <connections>
+                                    <action selector="illuminatiButtons:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u8C-ut-myq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.06794921875000004" green="0.06794921875000004" blue="0.06794921875000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aux-2I-il8" secondAttribute="bottom" constant="8" id="Dl8-Ih-UpD"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Obe-G9-ab6" secondAttribute="bottom" constant="8" id="Kuq-8t-4xU"/>
+                            <constraint firstItem="Obe-G9-ab6" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Psj-Sb-Da1"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wxg-iM-61N" secondAttribute="bottom" constant="8" id="R5g-9R-Sbp"/>
                             <constraint firstItem="b3Z-6U-7kx" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kIs-hz-nFl"/>
+                            <constraint firstItem="wxg-iM-61N" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="khL-IQ-yqp"/>
                             <constraint firstItem="b3Z-6U-7kx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qzu-QN-AWP"/>
+                            <constraint firstItem="aux-2I-il8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="tuf-e8-YwT"/>
                         </constraints>
                     </view>
                 </viewController>
