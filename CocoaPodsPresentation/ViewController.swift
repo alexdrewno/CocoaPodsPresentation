@@ -36,7 +36,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(self.update), userInfo: nil, repeats: true)
         
         //----------------(Confetti Things)----------------\\
-        confettiView.type = .Triangle
+        //confettiView.type = .Triangle
         view.addSubview(confettiView)
         confettiView.startConfetti()
         //----------------(Confetti Things)----------------\\
